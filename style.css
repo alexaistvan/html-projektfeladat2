@@ -40,10 +40,10 @@ body {
 }
 
 .pagetitle {
-  text-transform: uppercase;
-  text-align: center;
   background-color: var(--blue);
   color: var(--light);
+  text-transform: uppercase;
+  text-align: center;
   padding: 0.5rem;
   font-size: 1.9rem;
   margin-bottom: 5px;
@@ -327,18 +327,6 @@ form textarea {
     margin-top: 10px;
   }
 
-  .hero-container-text h1 {
-    font-size: 4rem;
-  }
-
-  .hero-container-text p {
-    font-size: 1.9rem;
-  }
-
-  .btn-sent {
-    width: 50%;
-  }
-
   .pairbox {
     display: flex;
     flex-direction: column;
@@ -351,6 +339,7 @@ form textarea {
     flex-wrap: wrap;
     justify-content: center;
   }
+
   .form_message {
     display: flex;
     flex-direction: column;
